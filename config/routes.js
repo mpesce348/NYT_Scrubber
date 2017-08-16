@@ -44,7 +44,7 @@ mongoose.connect(db, (error)=>{
 
 });
 
-// Listen on port 8080
+// Listen to the port
 app.listen(PORT, ()=>{
   console.log('Listening on Port '+ PORT);
 });
