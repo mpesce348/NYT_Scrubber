@@ -14,13 +14,24 @@
    Saved: {
      type: Boolean,
      default: false
-   }
+   },
+   
+  link: {
+    type: String,
+    required: true
+  },
+  
+
+  summary: {
+    type: String,
+    required: true
+  }
  });
 
- // Create Article Model
+ // Create Article model
 
  var Article = mongoose.model('Articles', articleSchema);
 
- // Export Article Model for use by other Files
+ // Export Article model
 
  module.Exports= Article;
